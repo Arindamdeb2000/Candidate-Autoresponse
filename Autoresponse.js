@@ -59,7 +59,7 @@ let RecruiterEmail = function(recipient, sender) {
     this.nextPitch = function() {
         currentPitch++;
         if (currentPitch > pitches.length - 1) {
-            document.location.assign(`mailto:${sender.email}?subject=Hey! I wanted to apply for the role of Global Talent Sourcer role in your company!`);
+            document.location.assign(`mailto:${sender.email}?subject=Hey! I wanted to speak to you about the Global Talent Sourcer role in your company!`);
         } else {
             elements.pitch.innerHTML = pitches[currentPitch];
             elements.affirmativeResponse.innerHTML = affirmativeResponses[currentPitch];
