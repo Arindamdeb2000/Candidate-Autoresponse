@@ -26,9 +26,9 @@ let RecruiterEmail = function(recipient, sender) {
 
     let pitches = [
         'Challenging, where I get to come into work and be able to use my creative side to source people from different social media platforms?',
-        'Be challenged to bring your creative skills in, to be part of the solutions to complex problems and be valued.',
+        'Be challenged to bring your creative skills in,to convince the hiring manager through Market Intelligence report that the Unicorns they are looking to hire for the skill within the specified compensation range are fictitious. Any resemblance to real persons is purely coincidental.',
         'Where I want to wake up every day wanting to go to work, love the people I work with, and feel compensated for my worth.',
-        'Able to keep learning new technologies and putting them to good use while I do all the above.'
+        'Able to keep learning new sourcing hacks and putting them to good use while I do all the above.'
     ];
 
     let affirmativeResponses = [
