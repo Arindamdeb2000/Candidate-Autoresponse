@@ -4,5 +4,5 @@ Once the candidate agrees to take the opportunity you are offering,it will autom
 
 The candidate can send their resume to you,with just a few clicks.
 
-<img src=""centre" height="undefined" width="1000" />
+<img src="https://media0.giphy.com/media/xUPGcoTKhfDvStjxMA/giphy.gif?cid=ecf05e47eylvqvkm22fcn0kztsx6k7s8yq5qjbsx9yu43o1l&rid=giphy.gif" align="centre" height="undefined" width="900" />
 </div>
