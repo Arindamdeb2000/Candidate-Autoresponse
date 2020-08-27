@@ -41,7 +41,7 @@ let RecruiterEmail = function(recipient, sender) {
 
     let negativeResponse = `No ${sender.firstName}, I want none of these things and want to be stagnant with my same old job and to be phased out of new opportunities.`;
 
-    let valueProposition = 'Staying on top of your industry is necessary. Partner with an actual IT guy not a recruiter that just cares about money and shoving you through a square hole.';
+    let valueProposition = 'Staying on top of your industry is necessary. Partner with the recruiter to understand more about the role. You never know,this might be the job you are looking forward to.';
 
     function init() {
         elements.salutation.innerHTML = `${recipient},`;
