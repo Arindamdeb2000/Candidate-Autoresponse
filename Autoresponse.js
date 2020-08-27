@@ -25,7 +25,7 @@ let RecruiterEmail = function(recipient, sender) {
     };
 
     let pitches = [
-        'Challenging, where I get to come into work and be able to use my creative side to develop new applications and break down existing applications in order to improve them.',
+        'Challenging, where I get to come into work and be able to use my creative side to source people from different social media platforms?',
         'Be challenged to bring your creative skills in, to be part of the solutions to complex problems and be valued.',
         'Where I want to wake up every day wanting to go to work, love the people I work with, and feel compensated for my worth.',
         'Able to keep learning new technologies and putting them to good use while I do all the above.'
