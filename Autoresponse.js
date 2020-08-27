@@ -35,7 +35,7 @@ let RecruiterEmail = function(recipient, sender) {
         `Yes ${sender.firstName}, contact me because I desire this.`,
         'Right on!',
         'You had me at "hello".',
-        `Now you're just toying with me ${sender.firstName}!`
+        `Now you're just playing with me ${sender.firstName}!`
     ];
 
 
@@ -59,7 +59,7 @@ let RecruiterEmail = function(recipient, sender) {
     this.nextPitch = function() {
         currentPitch++;
         if (currentPitch > pitches.length - 1) {
-            document.location.assign(`mailto:${sender.email}?subject=Hey! Give me a job, jerk!`);
+            document.location.assign(`mailto:${sender.email}?subject=Hey! I wanted to apply for the role of Global Talent Sourcer role in your company!`);
         } else {
             elements.pitch.innerHTML = pitches[currentPitch];
             elements.affirmativeResponse.innerHTML = affirmativeResponses[currentPitch];
