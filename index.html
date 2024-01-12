@@ -1,9 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>LinkedIn Recruiter Message</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Yeah, I'm using bootstrap. It's a joke project. Get over it. -->
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        h5 {
+            color: #555;
+        }
+
+        .btn-primary {
+            background-color: #5cb85c;
+            border-color: #4cae4c;
+        }
+
+        .btn-primary:hover {
+            background-color: #4cae4c;
+        }
+
+        a {
+            color: #d9534f;
+        }
+
+        a:hover {
+            color: #c9302c;
+        }
+
+        hr {
+            border-color: #ddd;
+        }
+
+        #sender {
+            color: #777;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,10 +60,10 @@
         <div id="pitch" style="margin-bottom:1em;"></div>
         <div class="row">
             <div class="col-sm-6">
-                <button onclick="email.nextPitch()" type="button" class="btn btn-block btn-primary" id="affirmative-response"></button>
+                <button onclick="email.nextPitch()" type="button" class="btn btn-block btn-primary" id="affirmative-response">Yes, I'm Interested!</button>
             </div>
             <div class="col-sm-6">
-                <a href="" onclick="email.noThanks()" id="negative-response"></a>
+                <a href="" onclick="email.noThanks()" id="negative-response">No, Thanks</a>
             </div>
         </div>
         <hr>
